@@ -1,0 +1,16 @@
+@media (max-width: 768px) {
+    /* Estilos específicos para telas menores (dispositivos móveis) */
+    h1 {
+        font-size: 28px; /* Reduz o tamanho da fonte */
+    }
+
+    .card {
+        border-radius: 0; /* Remove o arredondamento do card */
+        padding: 16px; /* Reduz o preenchimento */
+    }
+
+    .card input,
+    .card button {
+        font-size: 14px; /* Reduz o tamanho da fonte para os campos de entrada e botões */
+    }
+}
